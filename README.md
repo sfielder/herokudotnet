@@ -9,7 +9,7 @@
 
 ## How to
 
-,,,,bash
+````bash
 git clone https://github.com/sfielder/herokudotnet
 git init
 git add .
@@ -18,5 +18,4 @@ heroku create yourappname
 heroku buildpacks:set https://github.com/jincod/dotnet-buildpack
 git push heroku master
 heroku open
-
-,,,,
+````
